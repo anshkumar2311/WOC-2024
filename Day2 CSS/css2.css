@@ -1,0 +1,39 @@
+#heading{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+.shakilstyle{
+    color: rgb(31, 30, 30);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.div{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#divbhai{
+    background-color: burlywood;
+    width: 200px;
+    height: 200px;
+    padding: 20px 20px 0px 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border: 5px dashed;
+}
+#imagebehan{
+    background-image: url('smoke.jpg') ;
+    width: 98vw;
+    height: 98vh;
+    margin-top: 40px;
+    background-size: cover;
+}

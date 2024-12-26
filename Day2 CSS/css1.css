@@ -1,0 +1,58 @@
+/* *{
+    color: brown;
+} */
+.meeting {
+    color: brown;
+    background-color: antiquewhite;
+}
+
+/* .meeting{
+            color: green;
+            background-color: antiquewhite;
+        } */
+
+
+#shakil {
+    color: chartreuse;
+    background-color: black;
+}
+
+#shakil:hover {
+    color: red;
+    background-color: black;
+}
+
+#sam {
+    color: blueviolet;
+    background-color: aquamarine;
+}
+
+.c {
+    color: purple;
+}
+
+.check:hover {
+    color: darkgreen;
+    background-color: orange;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+h1 {
+    color: red;
+    background-color: powderblue;
+    font-style: italic;
+    padding-left: 40%;
+}
+
+h1:hover {
+    color: orange;
+}
+[type="text"] {
+    border: 10px solid black;
+    color: brown;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
