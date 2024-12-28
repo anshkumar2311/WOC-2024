@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hack</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .marquee {
+            overflow: hidden;
+
+            /*animation: marquee 10s linear infinite;*/
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .element-image {
+            width: 450px;
+            height: 550px;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="bg-[#0e231c] w-full text-white">
+        <nav class="w-full flex justify-between items-center px-[7vh] py-2.5 border-b absolute top-0">
+            <div class="pl-8"><img src="logo.svg" alt=""></div>
+            <div class="flex items-center font-Basis Grotesque Arabic Pro
+            text-[14px] pr-8">
+                <ul class="flex space-x-6">
+                    <li><a href="#">Home</a></li>
+                    <li class="opacity-50"><a href="#">About</a></li>
+                    <li class="opacity-50"><a href="#">Community</a></li>
+                </ul>
+                <button class="ml-6 h-[26px] text-sm text-black bg-white pl-4 pr-4 pt-1 pb-2">Join Us Now</button>
+            </div>
+        </nav>
+
+        <!-- hero part -->
+        <div class="w-full px-[4vw] pb-0 mb-0">
+            <div class="w-full border-x-[2px] flex justify-between items-start pt-[5.5vw]">
+                <!-- text part -->
+                <div class="pl-10 pt-20">
+                    <div class="text-[70px] leading-none font-soulmaze font-extrabold">
+                        ONCHAIN <br>
+                        <img src="rectangle.svg" alt="this is rectage" class="inline-block leading-0">SUMMER <br>
+                        BUILDATHON
+                    </div>
+                    <div class="pt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, impedit!
+                    </div>
+                </div>
+                <!-- img part -->
+                <div>
+                    <img src="Element.svg" alt="" class="pt-[0px] element-image">
+                </div>
+            </div>
+        </div>
+
+        <!-- Marquee section -->
+        <div class="w-full bg-[#C568DE] p-3 flex justify-around text-xl font-extrabold marquee">
+            <h1>CREATE</h1>
+            <img src="star.svg" alt="">
+            <h1>CREATE</h1>
+            <img src="star.svg" alt="">
+            <h1>CREATE</h1>
+            <img src="star.svg" alt="">
+            <h1>CREATE</h1>
+            <img src="star.svg" alt="">
+            <h1>CREATE</h1>
+        </div>
+        <!-- About section -->
+        <!-- <div class="w-full flex justify-between items-center px-[4vw] py-10">
+            <div class="w-[50%]">
+                <img src="about.svg" alt="" class="w-full">
+            </div>
+            <div class="w-[50%] pl-10">
+                <h1 class="text-[40px] font-extrabold">ABOUT US</h1>
+                <p class="text-[18px
+                ] pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur.</p>
+                <button class="mt-4 h-[26px] text-sm text-black bg-white pl-4 pr-4 pt-1 pb-2">Learn More</button>
+            </div>
+        </div> -->
+
+        <!--Next part -->
+        <div>
+            <h1 class="">How It Works</h1>
+            <div>
+                <img src="1.svg" alt="">
+            </div>
+            <div></div>
+            <div></div>
+        </div>
+    </main>
+</body>
+</html>
