@@ -8,9 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <style>
         .marquee {
-            overflow: hidden;
-
-            /*animation: marquee 10s linear infinite;*/
+            animation: marquee 10s linear infinite;
         }
 
         @keyframes marquee {
@@ -19,13 +17,8 @@
             }
 
             100% {
-                transform: translateX(-100%);
+                transform: translateX(-50%);
             }
-        }
-
-        .element-image {
-            width: 450px;
-            height: 550px;
         }
     </style>
 </head>
@@ -55,28 +48,52 @@
                         <img src="rectangle.svg" alt="this is rectage" class="inline-block leading-0">SUMMER <br>
                         BUILDATHON
                     </div>
-                    <div class="pt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, impedit!
+                    <div class="pt-4 text-[19px] opacity-80">Ready to make your mark? Apply now and get ready for an
+                        unforgettable experience at OnHack Africa!
+                    </div>
+                    <div class="pt-6 flex gap-8">
+                        <button class="ml-6 h-[26px] text-sm text-black bg-white pl-4 pr-4 pt-1 pb-2 flex gap-2">Become
+                            a Builder
+                            <img src="arrow.svg" alt="" class="pt-1">
+                        </button>
+                        <button class="opacity-35">Know More</button>
                     </div>
                 </div>
                 <!-- img part -->
                 <div>
-                    <img src="Element.svg" alt="" class="pt-[0px] element-image">
+                    <img src="Element.svg" alt="">
                 </div>
             </div>
         </div>
 
         <!-- Marquee section -->
-        <div class="w-full bg-[#C568DE] p-3 flex justify-around text-xl font-extrabold marquee">
-            <h1>CREATE</h1>
-            <img src="star.svg" alt="">
-            <h1>CREATE</h1>
-            <img src="star.svg" alt="">
-            <h1>CREATE</h1>
-            <img src="star.svg" alt="">
-            <h1>CREATE</h1>
-            <img src="star.svg" alt="">
-            <h1>CREATE</h1>
+        <div class="w-full overflow-hidden">
+            <div class="w-[200vw] marquee flex">
+                <div class="w-[50%] bg-[#C568DE] p-3 flex justify-around text-xl font-extrabold">
+                    <h1>CREATE</h1>
+                    <img src="star.svg" alt="">
+                    <h1>EXPLORE</h1>
+                    <img src="star.svg" alt="">
+                    <h1>BUILD</h1>
+                    <img src="star.svg" alt="">
+                    <h1>NETWORK</h1>
+                    <img src="star.svg" alt="">
+                    <h1>INNOVATE</h1>
+                </div>
+                <div class="w-[50%] bg-[#C568DE] p-3 flex justify-around text-xl font-extrabold">
+                    <h1>CREATE</h1>
+                    <img src="star.svg" alt="">
+                    <h1>EXPLORE</h1>
+                    <img src="star.svg" alt="">
+                    <h1>BUILD</h1>
+                    <img src="star.svg" alt="">
+                    <h1>NETWORK</h1>
+                    <img src="star.svg" alt="">
+                    <h1>INNOVATE</h1>
+                </div>
+            </div>
         </div>
+
         <!-- About section -->
         <!-- <div class="w-full flex justify-between items-center px-[4vw] py-10">
             <div class="w-[50%]">
@@ -94,14 +111,49 @@
         </div> -->
 
         <!--Next part -->
-        <div>
-            <h1 class="">How It Works</h1>
-            <div>
-                <img src="1.svg" alt="">
+        <div class="px-12 pt-[68px] ">
+            <h1 class="text-[48px] font-serif font-extrabold">How It Works?</h1>
+            <div class="flex mt-5 ">
+                <div class="max-w-[50%] border-white-500 border-[2px] rounded-ss-lg">
+                    <img src="1.svg" alt="">
+                    <div class="pl-6">
+                        <div>
+                            <img src="frame.svg" class="pt-5 pb-5" alt="">
+                            <h2 class="text-[30px] font-bold">Apply</h2>
+                        </div>
+                        <div class="text-[20px] opacity-50 pb-5">Submit your application through our online form. We're
+                            looking for passionate African innovators who are eager to make an impact. Fill out your
+                            details, tell us about your skills, and share why you want to join OnHack Africa.</div>
+                    </div>
+                </div>
+                <div class="max-w-[50%] border-white-500 border-[2px] rounded-se-lg">
+                    <img src="2.svg" alt="">
+                    <div class="pl-6">
+                        <div>
+                            <img src="frame1.svg" class="pt-5 pb-5" alt="">
+                            <h2 class="text-[30px] font-bold">Get Selected</h2>
+                        </div>
+                        <div class="text-[20px] opacity-50">Our selection committee will review applications and select
+                            the most promising participants. If you're chosen, you'll receive an email with all the
+                            details you need to prepare for the hackathon.</div>
+                    </div>
+                </div>
             </div>
-            <div></div>
-            <div></div>
+            <div class="max-w-[100%] border-white-500 border-[2px] rounded-b-lg">
+                <img src="3.svg" alt="">
+                <div class="pl-6">
+                    <div>
+                        <img src="frame2.svg" class="pt-5 pb-5" alt="">
+                        <h2 class="text-[30px] font-bold">Build in Real Life (IRL)</h2>
+                    </div>
+                    <div class="text-[20px] opacity-50 pb-5">Join us for the hackathon, where you'll meet your fellow
+                        participants, form teams, and start building. For three weeks, you'll be immersed in a
+                        high-energy environment, working on innovative projects, attending mentor sessions, and enjoying
+                        fun activities like game nights.</div>
+                </div>
+            </div>
         </div>
     </main>
 </body>
+
 </html>
