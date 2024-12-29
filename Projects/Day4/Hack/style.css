@@ -529,6 +529,12 @@ video {
 .mt-\[38px\] {
   margin-top: 38px;
 }
+.mt-10 {
+  margin-top: 2.5rem;
+}
+.mt-\[100px\] {
+  margin-top: 100px;
+}
 .inline-block {
   display: inline-block;
 }
@@ -550,6 +556,36 @@ video {
 .h-\[430px\] {
   height: 430px;
 }
+.h-8 {
+  height: 2rem;
+}
+.h-\[\] {
+  height: ;
+}
+.h-\[833\] {
+  height: 833;
+}
+.h-\[833px\] {
+  height: 833px;
+}
+.h-\[673\] {
+  height: 673;
+}
+.h-\[673px\] {
+  height: 673px;
+}
+.h-\[104px\] {
+  height: 104px;
+}
+.h-\[5\] {
+  height: 5;
+}
+.h-\[509\] {
+  height: 509;
+}
+.h-\[509px\] {
+  height: 509px;
+}
 .w-\[200vw\] {
   width: 200vw;
 }
@@ -564,6 +600,15 @@ video {
 }
 .w-full {
   width: 100%;
+}
+.w-\[\] {
+  width: ;
+}
+.w-\[446\] {
+  width: 446;
+}
+.w-\[446px\] {
+  width: 446px;
 }
 .max-w-\[100\%\] {
   max-width: 100%;
@@ -674,6 +719,12 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
+.bg-\[\] {
+  background-color: ;
+}
+.bg-opacity-80 {
+  --tw-bg-opacity: 0.8;
+}
 .p-3 {
   padding: 0.75rem;
 }
@@ -756,6 +807,24 @@ video {
 .pt-\[68px\] {
   padding-top: 68px;
 }
+.pt-\[100px\] {
+  padding-top: 100px;
+}
+.pt-10 {
+  padding-top: 2.5rem;
+}
+.pt-\[80px\] {
+  padding-top: 80px;
+}
+.pt-7 {
+  padding-top: 1.75rem;
+}
+.pt-9 {
+  padding-top: 2.25rem;
+}
+.pt-8 {
+  padding-top: 2rem;
+}
 .font-sans {
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -797,6 +866,9 @@ video {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
+.text-\[46px\] {
+  font-size: 46px;
+}
 .font-bold {
   font-weight: 700;
 }
@@ -812,6 +884,15 @@ video {
 .leading-none {
   line-height: 1;
 }
+.leading-3 {
+  line-height: .75rem;
+}
+.leading-8 {
+  line-height: 2rem;
+}
+.leading-10 {
+  line-height: 2.5rem;
+}
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
@@ -819,6 +900,12 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+.text-\[\] {
+  color: ;
+}
+.text-opacity-80 {
+  --tw-text-opacity: 0.8;
 }
 .opacity-35 {
   opacity: 0.35;
