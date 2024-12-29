@@ -1,0 +1,17 @@
+body{
+    font-size: 18px;
+    /* font-style: italic; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    cursor: pointer;
+    /* background-color: aqua; */
+    padding: 7px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: black;
+    color:antiquewhite;
+    /* animation: forwards; */
+}

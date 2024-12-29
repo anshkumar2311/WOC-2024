@@ -1,0 +1,22 @@
+.rando{
+    text-align: center;
+}
+#roll{
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: hsl(35, 9%, 74%);
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+#roll:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+.display{
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
