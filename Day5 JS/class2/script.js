@@ -8,7 +8,7 @@
 // let z = 25;
 // console.log(Math.round(x)); //round the no
 // console.log(Math.floor(x)); //remove no after point
-// console.log(Math.ceil(x)); //show next no if dec use
+// console.log(Math.ceil(x)); //show next no if decimal use
 // console.log(Math.trunc(x)); //remove no after point
 // console.log(Math.pow(x, y));//power
 // console.log(Math.sqrt(x));//square root

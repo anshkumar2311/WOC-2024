@@ -1,4 +1,5 @@
-const debtn = document.getElementById("decbtn");
+// innerText = textContent
+const decbtn = document.getElementById("decbtn");
 const incbtn = document.getElementById("incbtn");
 const resbtn = document.getElementById("resbtn");
 const countlabel = document.getElementById("countlabel");
@@ -7,9 +8,9 @@ incbtn.onclick = function () {
     count++;
     countlabel.textContent = count;
 }
-debtn.onclick = function () {
+decbtn.onclick = function () {
     count--;
-    countlabel.textContent = count;
+    countlabel.innerText = count;
 }
 resbtn.onclick = function () {
     count = 0;
