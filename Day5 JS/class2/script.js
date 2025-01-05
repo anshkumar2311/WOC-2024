@@ -33,21 +33,21 @@
 
 
 /*random number generator*/
-// let roll = document.getElementById("roll");
-// let value1 = document.getElementById("value1");
-// let value2 = document.getElementById("value2");
-// let value3 = document.getElementById("value3");
-// const max = 6;
-// const min = 1;
-// let randomNum;
-// roll.onclick = function () {
-//     randomNum1 = Math.floor(Math.random() * max) + min;
-//     value1.textContent = randomNum1;
-//     randomNum2 = Math.floor(Math.random() * max) + min;
-//     value2.textContent = randomNum2;
-//     randomNum3 = Math.floor(Math.random() * max) + min;
-//     value3.textContent = randomNum3;
-// }
+let roll = document.getElementById("roll");
+let value1 = document.getElementById("value1");
+let value2 = document.getElementById("value2");
+let value3 = document.getElementById("value3");
+const max = 6;
+const min = 1;
+let randomNum;
+roll.onclick = function () {
+    randomNum1 = Math.floor(Math.random() * max) + min;
+    value1.textContent = randomNum1;
+    randomNum2 = Math.floor(Math.random() * max) + min;
+    value2.textContent = randomNum2;
+    randomNum3 = Math.floor(Math.random() * max) + min;
+    value3.textContent = randomNum3;
+}
 
 
 
